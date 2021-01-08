@@ -454,7 +454,7 @@ CREATE TABLE `countries` (
   UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-INSERT INTO `countries` VALUES ('2','ipsa'),
+INSERT INTO `countries` VALUES ('2','Германия'),
 ('3','Россия'),
 ('1','USA'); 
 
