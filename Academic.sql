@@ -1,3 +1,6 @@
+/* База данных предназначена для сдачи в аренду недвижимости
+ * и автомобилей*/
+
 DROP DATABASE IF EXISTS rent;
 CREATE DATABASE IF NOT EXISTS rent;
 
@@ -20,7 +23,7 @@ DROP TABLE IF EXISTS countries;
 DROP TABLE IF EXISTS profiles;
 DROP TABLE IF EXISTS users;
 
-/* Таблица users*/
+/* Таблица пользователей users*/
 CREATE TABLE users(
     id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
     firstname VARCHAR(255) NOT NULL,

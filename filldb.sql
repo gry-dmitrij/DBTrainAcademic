@@ -586,7 +586,7 @@ CREATE TABLE `house_type` (
   UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-INSERT INTO `house_type` VALUES ('4','atque'),
+INSERT INTO `house_type` VALUES ('4','4-к квартира'),
 ('1','Дом'),
 ('5','1-к. квартира'),
 ('3','2-к. квартира'),

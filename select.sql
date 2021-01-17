@@ -60,3 +60,15 @@ WHERE
     AND r.name ='autem'
     AND c.name = 'ab';
 
+
+-- подсчитаем кол-во различных квартир в разных странах
+SELECT cr.name AS 'страна', 
+       ht.name AS 'тип', 
+       count(*) AS 'количество'
+FROM houses h
+    JOIN (house_type ht,
+          countries cr)
+    ON (h.type_id = ht.id
+        AND h.country_id = cr.id)
+GROUP BY cr.name, ht.name;
+
